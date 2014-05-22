@@ -3,7 +3,7 @@ body{
 	font-size: 18px;
 	line-height: 1.7;
 
-	color: #363636;
+	color: #ff6699;
 	pading: 0;
 	margin: 0;
 }
@@ -14,15 +14,15 @@ article{
 button{
 	font-size: 80%;
 	color: #fefefe;
-	background-color: #546573;
+	background-color: #ff6699;
 	padding: .5em 1em;
-	border: solid 1px #5c6d7b;
+	border: none 1px #5c6d7b;
 	border-radius: 2px;
 	display: inline-block;
 }
 button:hover{
-	background-color: #5c6d7b;
-	border: solid 1px #5c6d7b;
+	background-color: #ffcccc;
+	border: none; 
 	transition-property: background-color;
 	transition-duration: 1s;
 }
@@ -31,7 +31,7 @@ button:active{
 }
 input[type=text]{
 	font-size: 18px;
-	color: #363636;
+	color: #A9A9A9;
 	box-sizing: border-box;
 	width: 100%;
 	margin: .5em 0;
